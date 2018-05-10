@@ -6,7 +6,7 @@ simple script for recovery `/apps` json dump
 ### docker way
 ```
 docker build -t marathon-recovery .
-cat marathon.json | docker run marathon-recovery --url http://my-marathon.host.com -
+cat marathon.json | docker run -i marathon-recovery --url http://my-marathon.host.com -
 ```
 
 ### perl way
